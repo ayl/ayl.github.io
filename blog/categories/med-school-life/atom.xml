@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Med School Life | My Octopress Blog]]></title>
+  <title><![CDATA[Category: Med School Life | aaronylee]]></title>
   <link href="http://ayl.github.io/blog/categories/med-school-life/atom.xml" rel="self"/>
   <link href="http://ayl.github.io/"/>
-  <updated>2014-03-21T09:10:18-04:00</updated>
+  <updated>2014-03-21T09:43:48-04:00</updated>
   <id>http://ayl.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Aaron Lee]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
-    <title type="html"><![CDATA[The Night Before I Submit My ERAS...]]></title>
+    <title type="html"><![CDATA[the night before i submit my ERAS...]]></title>
     <link href="http://ayl.github.io/blog/2008/09/02/the-night-before-i-submit-my-eras/"/>
     <updated>2008-09-02T02:12:03-04:00</updated>
     <id>http://ayl.github.io/blog/2008/09/02/the-night-before-i-submit-my-eras</id>
@@ -30,7 +30,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[While in Palo Alto...]]></title>
+    <title type="html"><![CDATA[while in palo alto...]]></title>
     <link href="http://ayl.github.io/blog/2008/08/19/while-in-palo-alto/"/>
     <updated>2008-08-19T02:04:24-04:00</updated>
     <id>http://ayl.github.io/blog/2008/08/19/while-in-palo-alto</id>
@@ -48,7 +48,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Therapuetic Misconceptions]]></title>
+    <title type="html"><![CDATA[therapuetic misconceptions]]></title>
     <link href="http://ayl.github.io/blog/2008/02/03/therapuetic-misconceptions/"/>
     <updated>2008-02-03T16:38:05-05:00</updated>
     <id>http://ayl.github.io/blog/2008/02/03/therapuetic-misconceptions</id>
@@ -64,7 +64,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Conflicts of Interest]]></title>
+    <title type="html"><![CDATA[conflicts of interest]]></title>
     <link href="http://ayl.github.io/blog/2008/01/26/conflicts-of-interest/"/>
     <updated>2008-01-26T20:05:00-05:00</updated>
     <id>http://ayl.github.io/blog/2008/01/26/conflicts-of-interest</id>
@@ -80,7 +80,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Brutal Honesty]]></title>
+    <title type="html"><![CDATA[brutal honesty]]></title>
     <link href="http://ayl.github.io/blog/2007/05/09/brutal-honesty/"/>
     <updated>2007-05-09T19:57:56-04:00</updated>
     <id>http://ayl.github.io/blog/2007/05/09/brutal-honesty</id>

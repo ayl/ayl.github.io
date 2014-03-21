@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Humor | My Octopress Blog]]></title>
+  <title><![CDATA[Category: Humor | aaronylee]]></title>
   <link href="http://ayl.github.io/blog/categories/humor/atom.xml" rel="self"/>
   <link href="http://ayl.github.io/"/>
-  <updated>2014-03-21T09:10:18-04:00</updated>
+  <updated>2014-03-21T09:43:48-04:00</updated>
   <id>http://ayl.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Aaron Lee]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
-    <title type="html"><![CDATA[While in Palo Alto...]]></title>
+    <title type="html"><![CDATA[while in palo alto...]]></title>
     <link href="http://ayl.github.io/blog/2008/08/19/while-in-palo-alto/"/>
     <updated>2008-08-19T02:04:24-04:00</updated>
     <id>http://ayl.github.io/blog/2008/08/19/while-in-palo-alto</id>
@@ -32,7 +32,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[While on a Roadtrip to Denver...]]></title>
+    <title type="html"><![CDATA[while on a roadtrip to denver...]]></title>
     <link href="http://ayl.github.io/blog/2008/01/20/while-on-a-roadtrip-to-denver/"/>
     <updated>2008-01-20T11:18:49-05:00</updated>
     <id>http://ayl.github.io/blog/2008/01/20/while-on-a-roadtrip-to-denver</id>
@@ -48,7 +48,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[While Sitting in Intro to Entrepreneurship]]></title>
+    <title type="html"><![CDATA[while sitting in intro to entrepreneurship ]]></title>
     <link href="http://ayl.github.io/blog/2008/01/16/while-sitting-in-intro-to-entrepreneurship/"/>
     <updated>2008-01-16T14:46:11-05:00</updated>
     <id>http://ayl.github.io/blog/2008/01/16/while-sitting-in-intro-to-entrepreneurship</id>
@@ -58,7 +58,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[The Mother's Kiss Technique]]></title>
+    <title type="html"><![CDATA[the mother's kiss technique]]></title>
     <link href="http://ayl.github.io/blog/2008/01/14/the-mothers-kiss-technique/"/>
     <updated>2008-01-14T23:14:25-05:00</updated>
     <id>http://ayl.github.io/blog/2008/01/14/the-mothers-kiss-technique</id>
@@ -75,7 +75,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[A Simple Criteria for Marriage...]]></title>
+    <title type="html"><![CDATA[a simple criteria for marriage...]]></title>
     <link href="http://ayl.github.io/blog/2007/11/28/a-simple-criteria-for-marriage/"/>
     <updated>2007-11-28T14:37:31-05:00</updated>
     <id>http://ayl.github.io/blog/2007/11/28/a-simple-criteria-for-marriage</id>

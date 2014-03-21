@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Re: News | My Octopress Blog]]></title>
+  <title><![CDATA[Category: re: News | aaronylee]]></title>
   <link href="http://ayl.github.io/blog/categories/re-news/atom.xml" rel="self"/>
   <link href="http://ayl.github.io/"/>
-  <updated>2014-03-21T09:10:18-04:00</updated>
+  <updated>2014-03-21T09:43:48-04:00</updated>
   <id>http://ayl.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Aaron Lee]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
-    <title type="html"><![CDATA[Digg Digest 12/10/07]]></title>
+    <title type="html"><![CDATA[digg digest 12/10/07]]></title>
     <link href="http://ayl.github.io/blog/2007/12/10/digg-digest-121007/"/>
     <updated>2007-12-10T14:11:23-05:00</updated>
     <id>http://ayl.github.io/blog/2007/12/10/digg-digest-121007</id>
@@ -33,7 +33,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[I Know, I Know, Im a Geek]]></title>
+    <title type="html"><![CDATA[i know, i know, im a geek]]></title>
     <link href="http://ayl.github.io/blog/2007/10/12/i-know-i-know-im-a-geek/"/>
     <updated>2007-10-12T10:50:29-04:00</updated>
     <id>http://ayl.github.io/blog/2007/10/12/i-know-i-know-im-a-geek</id>
@@ -46,7 +46,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Interview Tactics]]></title>
+    <title type="html"><![CDATA[interview tactics]]></title>
     <link href="http://ayl.github.io/blog/2007/10/12/interview-tactics/"/>
     <updated>2007-10-12T10:35:57-04:00</updated>
     <id>http://ayl.github.io/blog/2007/10/12/interview-tactics</id>
@@ -62,7 +62,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Liquid Kiss...]]></title>
+    <title type="html"><![CDATA[liquid kiss...]]></title>
     <link href="http://ayl.github.io/blog/2007/08/17/liquid-kiss/"/>
     <updated>2007-08-17T00:40:15-04:00</updated>
     <id>http://ayl.github.io/blog/2007/08/17/liquid-kiss</id>
@@ -72,7 +72,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Oh the Japanese...]]></title>
+    <title type="html"><![CDATA[oh the japanese...]]></title>
     <link href="http://ayl.github.io/blog/2007/03/03/oh-the-japanese/"/>
     <updated>2007-03-03T21:06:34-05:00</updated>
     <id>http://ayl.github.io/blog/2007/03/03/oh-the-japanese</id>

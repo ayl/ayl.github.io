@@ -1,81 +1,126 @@
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>My Octopress Blog</title>
-  <meta name="author" content="Your Name">
+	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
+	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<meta charset="utf-8">
+	<title>Ophthalmologist and Developer  | aaronylee</title>
 
-  
-  <meta name="description" content="&lt;context: morning&gt; chris: Hwei, do you want to wear something over your legs? Here&#8217;s my shirt. katy: Chris, can you cover your face? You &hellip;">
-  
+<meta name="author" content="Aaron Lee"> 
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="We worry about conflicts of interest or commitment in research because of the undue influences that they may have on healthcare providers. Since &hellip;"> <meta name="keywords" content="">
 
-  
-  <link rel="canonical" href="http://ayl.github.io/blog/page/2">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+	<link href="/atom.xml" rel="alternate" title="aaronylee" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/javascripts/jquery.fancybox.pack.js"></script>
 
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el, 
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+
+	
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">My Octopress Blog</a></h1>
-  
-    <h2>A blogging framework for hackers.</h2>
-  
-</hgroup>
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">aaronylee</a></h1>
+<h4>Ophthalmologist and Developer</h4>
+<nav id="main-nav"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="https://www.google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:ayl.github.io">
+			</form>
+		</div>
+	</div>
+</nav>
+
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="https://www.google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:ayl.github.io" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2008/01/20/while-on-a-roadtrip-to-denver/">While on a Roadtrip to Denver&#8230;</a></h1>
-    
-    
-      <p class="meta">
-        
+	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2008/01/26/conflicts-of-interest/">
+		
+			Conflicts of Interest</a>
+	</h2>
+	<div class="entry-content">
+		<p>We worry about conflicts of interest or commitment in research because of the undue influences that they may have on healthcare providers. Since there is clearly an effect upon the care that is delivered, conflicts of interest may impact the care delivered in a positive or a negative way. Positively affecting conflicts of interest motivate healthcare providers to act in the best interest of the patient whereas negatively affecting conflicts of interest motivate healthcare providers to work in the best interest of some entity outside of the patient.</p>
+
+
+<p>Positively affecting conflicts of interest include situations where the physician or someone close to the physician is the receiver of care such as friends or family. In these cases, the physician has an incentive to provide care above and beyond the average patient. This motivation may have negative consequences when the provider begins work selfishly in the interest of himself over the patient&#8217;s own wishes. A common example of this is when providers care for their parents during end of life situations and attempt to exceed the level of care over the patient&#8217;s wishes for selfish reasons. Nonetheless in these situations, the care of the provider is for the ultimate benefit of the patient and not a third party, and therefore is less worrisome.</p>
+
+
+<p>Conflicts of interest which are more worrisome involve cases where the researcher or the provider is not acting solely in the best interest of the patient, but also for a third party entity. These include the cases from drug company provided pens to a researcher&#8217;s desire to further their own research. While providers may truly believe that they are acting primarily in the interest of the patient with the additional benefit of a third entity, they must also consider that they are unconsciously or consciously biased toward offering one treatment over another. Given a situation with two possible treatments where both treatments ostensibly benefit the patient, but one additionally benefits a drug company or a researcher&#8217;s research, the provider will naturally choose to give the later treatment. Even though this may seem innocuous in its result, the motivation behind the choice may lead to a dangerous situation in which the provider does not prescribe the former treatment even if it is more beneficial for the patient since the provider is no longer acting solely in the interest of the patient. It is precisely these situations that are most dangerous in terms of conflicts of interests, and the reason why we have ethical guidelines to follow.</p>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
 
 
 
@@ -87,14 +132,29 @@
   
 
 
-<time datetime="2008-01-20T11:18:49-05:00" pubdate data-updated="true">Jan 20<span>th</span>, 2008</time>
-        
-      </p>
-    
-  </header>
+<time datetime="2008-01-26T20:05:00-05:00" pubdate data-updated="true">Jan 26<span>th</span>, 2008</time></div>
+	
+
+<div class="tags">
+
+	<a class='category' href='/blog/categories/med-school-life/'>Med School Life</a>
+
+</div>
 
 
-  <div class="entry-content"><p>&lt;context: morning&gt;</p>
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2008/01/20/while-on-a-roadtrip-to-denver/">
+		
+			While on a Roadtrip to Denver&#8230;</a>
+	</h2>
+	<div class="entry-content">
+		<p>&lt;context: morning&gt;</p>
 
 
 <p>chris: Hwei, do you want to wear something over your legs? Here&#8217;s my shirt.</p>
@@ -102,23 +162,14 @@
 
 <p>katy: Chris, can you cover your face? You&#8217;re stumbling me.</p>
 
-</div>
-  
-  
+
+		
+		
+	</div>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2008/01/16/while-sitting-in-intro-to-entrepreneurship/">While Sitting in Intro to Entrepreneurship</a></h1>
-    
-    
-      <p class="meta">
-        
+<div class="meta">
+	<div class="date">
 
 
 
@@ -130,51 +181,72 @@
   
 
 
-<time datetime="2008-01-16T14:46:11-05:00" pubdate data-updated="true">Jan 16<span>th</span>, 2008</time>
-        
-      </p>
-    
-  </header>
+<time datetime="2008-01-20T11:18:49-05:00" pubdate data-updated="true">Jan 20<span>th</span>, 2008</time></div>
+	
 
+<div class="tags">
 
-  <div class="entry-content"><p>teacher: Make benefits a little worse than employee&#8217;s spouses.</p>
+	<a class='category' href='/blog/categories/humor/'>Humor</a>
 
 </div>
+
+
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2008/01/16/while-sitting-in-intro-to-entrepreneurship/">
+		
+			While Sitting in Intro to Entrepreneurship</a>
+	</h2>
+	<div class="entry-content">
+		<p>teacher: Make benefits a little worse than employee&#8217;s spouses.</p>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
   
-  
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2008/01/14/the-mothers-kiss-technique/">The Mother&#8217;s Kiss Technique</a></h1>
-    
-    
-      <p class="meta">
-        
+<time datetime="2008-01-16T14:46:11-05:00" pubdate data-updated="true">Jan 16<span>th</span>, 2008</time></div>
+	
+
+<div class="tags">
+
+	<a class='category' href='/blog/categories/humor/'>Humor</a>
+
+</div>
 
 
+	
+</div></article>
 
 
-
-
-
-
-  
-
-
-<time datetime="2008-01-14T23:14:25-05:00" pubdate data-updated="true">Jan 14<span>th</span>, 2008</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>While doing some reading for class I came across this quote:</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2008/01/14/the-mothers-kiss-technique/">
+		
+			The Mother&#8217;s Kiss Technique</a>
+	</h2>
+	<div class="entry-content">
+		<p>While doing some reading for class I came across this quote:</p>
 
 
 <blockquote><p>Motherâ€™s kiss techniqueâ€”A child presented to a clinic with a plastic bead lodged high in one nostril. The general practitioner asked the nurse for forceps, but she asked him whether he had thought of trying the motherâ€™s kiss technique. This entailed occluding the unblocked nostril while the mother blew into the childâ€™s mouth. The bead was easily dislodged and retrieved in this way, and mother and child were both delighted&#8230;
@@ -183,82 +255,94 @@
 
 <p>Glasziou et al. When are randomised trials unnecessary? Picking signal from noise. BMJ (2007) vol. 334 (7589) pp. 349-51</p>
 
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-01-14T23:14:25-05:00" pubdate data-updated="true">Jan 14<span>th</span>, 2008</time></div>
+	
+
+<div class="tags">
+
+	<a class='category' href='/blog/categories/humor/'>Humor</a>
+
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2008/01/14/what-ive-been-doing-with-my-free-time/">What Ive Been Doing With My Free Time&#8230;</a></h1>
-    
-    
-      <p class="meta">
-        
+	
+</div></article>
 
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2008-01-14T22:41:53-05:00" pubdate data-updated="true">Jan 14<span>th</span>, 2008</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>In case people have been wondering what the heck I&#8217;ve been up to. Here it is&#8230;</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2008/01/14/what-ive-been-doing-with-my-free-time/">
+		
+			What Ive Been Doing With My Free Time&#8230;</a>
+	</h2>
+	<div class="entry-content">
+		<p>In case people have been wondering what the heck I&#8217;ve been up to. Here it is&#8230;</p>
 
 
 <p><a href="http://ayl.nuwen.net/index.php/projects/diy-imod-ipod/">iMod iPod DIY tutorial</a></p>
 
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-01-14T22:41:53-05:00" pubdate data-updated="true">Jan 14<span>th</span>, 2008</time></div>
+	
+
+<div class="tags">
+
+	<a class='category' href='/blog/categories/life-in-general/'>Life In General</a>
+
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2007/12/11/premonitions/">Premonitions&#8230;</a></h1>
-    
-    
-      <p class="meta">
-        
+	
+</div></article>
 
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2007-12-11T20:52:29-05:00" pubdate data-updated="true">Dec 11<span>th</span>, 2007</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Yesterday I found myself sliding into a truck that sudden stopped. Under normal conditions, the 15-feet distance and my remarkable reflexes would have been more than enough to stop at an adequate distance behind her, but unfortunately I felt the tires begin to slide due to the slippery conditions. It&#8217;s a strange feeling watching the inevitable happen without a thing that you can do to stop it.</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2007/12/11/premonitions/">
+		
+			Premonitions&#8230;</a>
+	</h2>
+	<div class="entry-content">
+		<p>Yesterday I found myself sliding into a truck that sudden stopped. Under normal conditions, the 15-feet distance and my remarkable reflexes would have been more than enough to stop at an adequate distance behind her, but unfortunately I felt the tires begin to slide due to the slippery conditions. It&#8217;s a strange feeling watching the inevitable happen without a thing that you can do to stop it.</p>
 
 
 <p>Earlier that morning, I had three separate occasions that I was positive that I was going to get into an accident. First, I was stopped at a corner and a car was making a right turn into the opposite lane and came within an inch of hitting my car. Further down that same street another car was backing out into the street but we had no vision of each other and he almost backed into me. Finally as I turning into the parking lot, an SUV was making a U-turn and blocked the vision of the opposite lane. Thinking that the lane was clear, I began to turn left into the lot when I spotted the small car behind it that was already moving.</p>
@@ -266,42 +350,48 @@
 
 <p>I remember having a funny feeling that something bad was going to happen and that I should be really careful. Should have listened more to my gut instincts&#8230;</p>
 
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-12-11T20:52:29-05:00" pubdate data-updated="true">Dec 11<span>th</span>, 2007</time></div>
+	
+
+<div class="tags">
+
+	<a class='category' href='/blog/categories/life-in-general/'>Life In General</a>
+
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2007/12/10/digg-digest-121007/">Digg Digest 12/10/07</a></h1>
-    
-    
-      <p class="meta">
-        
+	
+</div></article>
 
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2007-12-10T14:11:23-05:00" pubdate data-updated="true">Dec 10<span>th</span>, 2007</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>So I decided to digest interesting links on digg for those you that are uneducated in the ways of social browsing. Here are a list of the random / funny / interesting links of the day:</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2007/12/10/digg-digest-121007/">
+		
+			Digg Digest 12/10/07</a>
+	</h2>
+	<div class="entry-content">
+		<p>So I decided to digest interesting links on digg for those you that are uneducated in the ways of social browsing. Here are a list of the random / funny / interesting links of the day:</p>
 
 
 <ol>
@@ -312,23 +402,14 @@
 <li><a href="http://sawse.com/2007/12/07/10-top-sites-for-colour-lovers-inspiration-palettes-tools-and-other-color-resources/">Color Picking Tools</a> &#8211; Ever needed a tool to help you match colors?</li>
 </ol>
 
-</div>
-  
-  
+
+		
+		
+	</div>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2007/11/28/a-simple-criteria-for-marriage/">A Simple Criteria for Marriage&#8230;</a></h1>
-    
-    
-      <p class="meta">
-        
+<div class="meta">
+	<div class="date">
 
 
 
@@ -340,112 +421,130 @@
   
 
 
-<time datetime="2007-11-28T14:37:31-05:00" pubdate data-updated="true">Nov 28<span>th</span>, 2007</time>
-        
-      </p>
-    
-  </header>
+<time datetime="2007-12-10T14:11:23-05:00" pubdate data-updated="true">Dec 10<span>th</span>, 2007</time></div>
+	
 
+<div class="tags">
 
-  <div class="entry-content"><p>A lot of people I&#8217;ve met have ridiculously long list of things that their future significant other should or shouldn&#8217;t be like. I, on the other hand, have a simple criteria.<img src="http://ayl.nuwen.net/wp-content/uploads/2007/11/factor.png" alt="factor" /></p>
+	<a class='category' href='/blog/categories/re-news/'>re: News</a>
 
 </div>
+
+
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2007/11/28/a-simple-criteria-for-marriage/">
+		
+			A Simple Criteria for Marriage&#8230;</a>
+	</h2>
+	<div class="entry-content">
+		<p>A lot of people I&#8217;ve met have ridiculously long list of things that their future significant other should or shouldn&#8217;t be like. I, on the other hand, have a simple criteria.<img src="http://ayl.nuwen.net/wp-content/uploads/2007/11/factor.png" alt="factor" /></p>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
   
-  
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2007/10/18/just-for-christopher-shim/">Just for Christopher Shim&#8230;</a></h1>
-    
-    
-      <p class="meta">
-        
+<time datetime="2007-11-28T14:37:31-05:00" pubdate data-updated="true">Nov 28<span>th</span>, 2007</time></div>
+	
+
+<div class="tags">
+
+	<a class='category' href='/blog/categories/humor/'>Humor</a>
+
+</div>
 
 
+	
+</div></article>
 
 
-
-
-
-
-  
-
-
-<time datetime="2007-10-18T02:25:51-04:00" pubdate data-updated="true">Oct 18<span>th</span>, 2007</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I have to say that I only really thought of one person when I saw this photo (note the license plate):</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2007/10/18/just-for-christopher-shim/">
+		
+			Just for Christopher Shim&#8230;</a>
+	</h2>
+	<div class="entry-content">
+		<p>I have to say that I only really thought of one person when I saw this photo (note the license plate):</p>
 
 
 <p><a href="http://ayl.nuwen.net/wp-content/uploads/2007/10/544142897_b0fbff8307_o.jpg" rel="lightbox" title="arr"><img src="http://ayl.nuwen.net/wp-content/uploads/2007/10/544142897_b0fbff8307_o.thumbnail.jpg" alt="arr" height="273" width="340" /></a>from <a href="http://www.flickr.com/photo_zoom.gne?id=544142897&amp;size=o">flickr</a></p>
 
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-10-18T02:25:51-04:00" pubdate data-updated="true">Oct 18<span>th</span>, 2007</time></div>
+	
+
+<div class="tags">
+
+	<a class='category' href='/blog/categories/humor/'>Humor</a>
+
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2007/10/13/starry-starry-night/">Starry, Starry Night&#8230;</a></h1>
-    
-    
-      <p class="meta">
-        
+	
+</div></article>
 
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2007-10-13T14:58:40-04:00" pubdate data-updated="true">Oct 13<span>th</span>, 2007</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://ayl.nuwen.net/wp-content/uploads/2007/10/starry-night-mid.jpg" rel="lightbox"  title="mid"><img src="http://ayl.nuwen.net/wp-content/uploads/2007/10/starry-night-small.jpg" alt="mid" /></a></p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2007/10/13/starry-starry-night/">
+		
+			Starry, Starry Night&#8230;</a>
+	</h2>
+	<div class="entry-content">
+		<p><a href="http://ayl.nuwen.net/wp-content/uploads/2007/10/starry-night-mid.jpg" rel="lightbox"  title="mid"><img src="http://ayl.nuwen.net/wp-content/uploads/2007/10/starry-night-small.jpg" alt="mid" /></a></p>
 
 
 <p>Taken during the 2007 camping trip last night!</p>
 
-</div>
-  
-  
+
+		
+		
+	</div>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2007/10/12/i-know-i-know-im-a-geek/">I Know, I Know, Im a Geek</a></h1>
-    
-    
-      <p class="meta">
-        
+<div class="meta">
+	<div class="date">
 
 
 
@@ -457,96 +556,43 @@
   
 
 
-<time datetime="2007-10-12T10:50:29-04:00" pubdate data-updated="true">Oct 12<span>th</span>, 2007</time>
-        
-      </p>
-    
-  </header>
+<time datetime="2007-10-13T14:58:40-04:00" pubdate data-updated="true">Oct 13<span>th</span>, 2007</time></div>
+	
 
+<div class="tags">
 
-  <div class="entry-content"><p>It&#8217;s too bad not enough people can understand how brilliant these two comics from <a href="http://xkcd.com/">xkcd</a> are.</p>
-
-
-<p><img src="http://ayl.nuwen.net/wp-content/uploads/2007/10/image001.png" alt="image001.png" height="131" width="427" /><img src="http://ayl.nuwen.net/wp-content/uploads/2007/10/sandwich.png" alt="sandwich.png" /></p>
+	<a class='category' href='/blog/categories/life-in-general/'>Life In General</a>
 
 </div>
-  
-  
 
 
-    </article>
-  
-  <div class="pagination">
-    
-      <a class="prev" href="/blog/page/3/">&larr; Older</a>
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-    <a class="next" href="/">Newer &rarr;</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2014/03/21/migrated-to-octopress/">Migrated to Octopress</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/03/21/welcome-to-jekyll/">Welcome to My New Home!</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2008/09/02/the-night-before-i-submit-my-eras/">The Night Before I Submit My ERAS&#8230;</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2008/08/19/while-in-palo-alto/">While in Palo Alto&#8230;</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2008/02/11/hello-new-york/">Hello New York!</a>
-      </li>
-    
-  </ul>
-</section>
+	
+</div></article>
 
+<nav id="pagenavi">
+    
+        <a href="/" class="prev">Prev</a>
+    
+    
+        <a href="/blog/page/3/" class="next">Next</a>
+    
+    <div class="center"><a href="/archives">Blog Archives</a></div>
+</nav></div>
+	<footer id="footer" class="inner">Copyright &copy; 2014
 
+    Aaron Lee
 
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - Your Name -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
+<br>
+Powered by Octopress.
 </footer>
-  
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
 
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
 
 
 

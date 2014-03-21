@@ -1,17 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[aaronylee]]></title>
   <link href="http://ayl.github.io/atom.xml" rel="self"/>
   <link href="http://ayl.github.io/"/>
-  <updated>2014-03-21T09:10:18-04:00</updated>
+  <updated>2014-03-21T09:43:48-04:00</updated>
   <id>http://ayl.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Aaron Lee]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress problems with Safari on Mavericks]]></title>
+    <link href="http://ayl.github.io/blog/2014/03/21/octopress-problems-with-safari-on-mavericks/"/>
+    <updated>2014-03-21T09:25:32-04:00</updated>
+    <id>http://ayl.github.io/blog/2014/03/21/octopress-problems-with-safari-on-mavericks</id>
+    <content type="html"><![CDATA[<p>One small roadbump I ran into while migrating my really simple blog over was that whenever I was testing the site with:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ bin/rake preview</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I kept seeing a blank page on Safari. When I looked at the errors generated it looked like it was having trouble loading screen.css and modernizr-2.0.js. Interestingly when I ran the same page (<a href="http://0.0.0.0:4000">http://0.0.0.0:4000</a>) with Google Chrome, it ran just fine without a problem.</p>
+
+<p>A quick Google search showed that this is a known problem with Octopress (<a href="https://github.com/imathis/octopress/issues/1395">https://github.com/imathis/octopress/issues/1395</a>) with the issue being the WEBbrick server.  One workaround was to install Thin:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ gem install thin</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And then add it to the Gemfile:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>group :development do
+</span><span class='line'>  gem 'thin'
+</span><span class='line'>  ...
+</span><span class='line'>end</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Migrated to Octopress]]></title>
@@ -23,7 +56,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Welcome to My New Home!]]></title>
+    <title type="html"><![CDATA[Welcome to my new home!]]></title>
     <link href="http://ayl.github.io/blog/2014/03/21/welcome-to-jekyll/"/>
     <updated>2014-03-21T03:34:58-04:00</updated>
     <id>http://ayl.github.io/blog/2014/03/21/welcome-to-jekyll</id>
@@ -32,7 +65,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[The Night Before I Submit My ERAS...]]></title>
+    <title type="html"><![CDATA[the night before i submit my ERAS...]]></title>
     <link href="http://ayl.github.io/blog/2008/09/02/the-night-before-i-submit-my-eras/"/>
     <updated>2008-09-02T02:12:03-04:00</updated>
     <id>http://ayl.github.io/blog/2008/09/02/the-night-before-i-submit-my-eras</id>
@@ -48,7 +81,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[While in Palo Alto...]]></title>
+    <title type="html"><![CDATA[while in palo alto...]]></title>
     <link href="http://ayl.github.io/blog/2008/08/19/while-in-palo-alto/"/>
     <updated>2008-08-19T02:04:24-04:00</updated>
     <id>http://ayl.github.io/blog/2008/08/19/while-in-palo-alto</id>
@@ -66,7 +99,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Hello New York!]]></title>
+    <title type="html"><![CDATA[hello new york!]]></title>
     <link href="http://ayl.github.io/blog/2008/02/11/hello-new-york/"/>
     <updated>2008-02-11T01:35:56-05:00</updated>
     <id>http://ayl.github.io/blog/2008/02/11/hello-new-york</id>
@@ -82,7 +115,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Lockin Pics]]></title>
+    <title type="html"><![CDATA[lockin pics]]></title>
     <link href="http://ayl.github.io/blog/2008/02/05/lockin-pics/"/>
     <updated>2008-02-05T11:11:04-05:00</updated>
     <id>http://ayl.github.io/blog/2008/02/05/lockin-pics</id>
@@ -98,7 +131,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Therapuetic Misconceptions]]></title>
+    <title type="html"><![CDATA[therapuetic misconceptions]]></title>
     <link href="http://ayl.github.io/blog/2008/02/03/therapuetic-misconceptions/"/>
     <updated>2008-02-03T16:38:05-05:00</updated>
     <id>http://ayl.github.io/blog/2008/02/03/therapuetic-misconceptions</id>
@@ -114,7 +147,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[More Hdr]]></title>
+    <title type="html"><![CDATA[more hdr]]></title>
     <link href="http://ayl.github.io/blog/2008/02/02/more-hdr/"/>
     <updated>2008-02-02T15:59:48-05:00</updated>
     <id>http://ayl.github.io/blog/2008/02/02/more-hdr</id>
@@ -132,7 +165,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Foray Into Hdr]]></title>
+    <title type="html"><![CDATA[foray into hdr]]></title>
     <link href="http://ayl.github.io/blog/2008/02/01/foray-into-hdr/"/>
     <updated>2008-02-01T14:14:02-05:00</updated>
     <id>http://ayl.github.io/blog/2008/02/01/foray-into-hdr</id>
@@ -157,7 +190,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Conflicts of Interest]]></title>
+    <title type="html"><![CDATA[conflicts of interest]]></title>
     <link href="http://ayl.github.io/blog/2008/01/26/conflicts-of-interest/"/>
     <updated>2008-01-26T20:05:00-05:00</updated>
     <id>http://ayl.github.io/blog/2008/01/26/conflicts-of-interest</id>
@@ -173,7 +206,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[While on a Roadtrip to Denver...]]></title>
+    <title type="html"><![CDATA[while on a roadtrip to denver...]]></title>
     <link href="http://ayl.github.io/blog/2008/01/20/while-on-a-roadtrip-to-denver/"/>
     <updated>2008-01-20T11:18:49-05:00</updated>
     <id>http://ayl.github.io/blog/2008/01/20/while-on-a-roadtrip-to-denver</id>
@@ -189,7 +222,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[While Sitting in Intro to Entrepreneurship]]></title>
+    <title type="html"><![CDATA[while sitting in intro to entrepreneurship ]]></title>
     <link href="http://ayl.github.io/blog/2008/01/16/while-sitting-in-intro-to-entrepreneurship/"/>
     <updated>2008-01-16T14:46:11-05:00</updated>
     <id>http://ayl.github.io/blog/2008/01/16/while-sitting-in-intro-to-entrepreneurship</id>
@@ -199,7 +232,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[The Mother's Kiss Technique]]></title>
+    <title type="html"><![CDATA[the mother's kiss technique]]></title>
     <link href="http://ayl.github.io/blog/2008/01/14/the-mothers-kiss-technique/"/>
     <updated>2008-01-14T23:14:25-05:00</updated>
     <id>http://ayl.github.io/blog/2008/01/14/the-mothers-kiss-technique</id>
@@ -216,7 +249,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[What Ive Been Doing With My Free Time...]]></title>
+    <title type="html"><![CDATA[what ive been doing with my free time...]]></title>
     <link href="http://ayl.github.io/blog/2008/01/14/what-ive-been-doing-with-my-free-time/"/>
     <updated>2008-01-14T22:41:53-05:00</updated>
     <id>http://ayl.github.io/blog/2008/01/14/what-ive-been-doing-with-my-free-time</id>
@@ -229,7 +262,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Premonitions...]]></title>
+    <title type="html"><![CDATA[premonitions...]]></title>
     <link href="http://ayl.github.io/blog/2007/12/11/premonitions/"/>
     <updated>2007-12-11T20:52:29-05:00</updated>
     <id>http://ayl.github.io/blog/2007/12/11/premonitions</id>
@@ -245,7 +278,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Digg Digest 12/10/07]]></title>
+    <title type="html"><![CDATA[digg digest 12/10/07]]></title>
     <link href="http://ayl.github.io/blog/2007/12/10/digg-digest-121007/"/>
     <updated>2007-12-10T14:11:23-05:00</updated>
     <id>http://ayl.github.io/blog/2007/12/10/digg-digest-121007</id>
@@ -264,7 +297,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[A Simple Criteria for Marriage...]]></title>
+    <title type="html"><![CDATA[a simple criteria for marriage...]]></title>
     <link href="http://ayl.github.io/blog/2007/11/28/a-simple-criteria-for-marriage/"/>
     <updated>2007-11-28T14:37:31-05:00</updated>
     <id>http://ayl.github.io/blog/2007/11/28/a-simple-criteria-for-marriage</id>
@@ -274,7 +307,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Just for Christopher Shim...]]></title>
+    <title type="html"><![CDATA[just for christopher shim...]]></title>
     <link href="http://ayl.github.io/blog/2007/10/18/just-for-christopher-shim/"/>
     <updated>2007-10-18T02:25:51-04:00</updated>
     <id>http://ayl.github.io/blog/2007/10/18/just-for-christopher-shim</id>
@@ -287,7 +320,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Starry, Starry Night...]]></title>
+    <title type="html"><![CDATA[starry, starry night...]]></title>
     <link href="http://ayl.github.io/blog/2007/10/13/starry-starry-night/"/>
     <updated>2007-10-13T14:58:40-04:00</updated>
     <id>http://ayl.github.io/blog/2007/10/13/starry-starry-night</id>
@@ -295,19 +328,6 @@
 
 
 <p>Taken during the 2007 camping trip last night!</p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[I Know, I Know, Im a Geek]]></title>
-    <link href="http://ayl.github.io/blog/2007/10/12/i-know-i-know-im-a-geek/"/>
-    <updated>2007-10-12T10:50:29-04:00</updated>
-    <id>http://ayl.github.io/blog/2007/10/12/i-know-i-know-im-a-geek</id>
-    <content type="html"><![CDATA[<p>It&#8217;s too bad not enough people can understand how brilliant these two comics from <a href="http://xkcd.com/">xkcd</a> are.</p>
-
-
-<p><img src="http://ayl.nuwen.net/wp-content/uploads/2007/10/image001.png" alt="image001.png" height="131" width="427" /><img src="http://ayl.nuwen.net/wp-content/uploads/2007/10/sandwich.png" alt="sandwich.png" /></p>
 
 ]]></content>
   </entry>

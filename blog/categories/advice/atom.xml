@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Advice | My Octopress Blog]]></title>
+  <title><![CDATA[Category: Advice | aaronylee]]></title>
   <link href="http://ayl.github.io/blog/categories/advice/atom.xml" rel="self"/>
   <link href="http://ayl.github.io/"/>
-  <updated>2014-03-21T09:10:18-04:00</updated>
+  <updated>2014-03-21T09:43:48-04:00</updated>
   <id>http://ayl.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Aaron Lee]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
-    <title type="html"><![CDATA[More Hdr]]></title>
+    <title type="html"><![CDATA[more hdr]]></title>
     <link href="http://ayl.github.io/blog/2008/02/02/more-hdr/"/>
     <updated>2008-02-02T15:59:48-05:00</updated>
     <id>http://ayl.github.io/blog/2008/02/02/more-hdr</id>
@@ -32,7 +32,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Foray Into Hdr]]></title>
+    <title type="html"><![CDATA[foray into hdr]]></title>
     <link href="http://ayl.github.io/blog/2008/02/01/foray-into-hdr/"/>
     <updated>2008-02-01T14:14:02-05:00</updated>
     <id>http://ayl.github.io/blog/2008/02/01/foray-into-hdr</id>
@@ -57,7 +57,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Random Piece of Advice:]]></title>
+    <title type="html"><![CDATA[random piece of advice:]]></title>
     <link href="http://ayl.github.io/blog/2006/11/05/random-piece-of-advice/"/>
     <updated>2006-11-05T22:59:15-05:00</updated>
     <id>http://ayl.github.io/blog/2006/11/05/random-piece-of-advice</id>
@@ -67,7 +67,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Good Speech...]]></title>
+    <title type="html"><![CDATA[good speech...]]></title>
     <link href="http://ayl.github.io/blog/2006/10/12/good-speech/"/>
     <updated>2006-10-12T21:03:51-04:00</updated>
     <id>http://ayl.github.io/blog/2006/10/12/good-speech</id>
@@ -168,7 +168,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[No 13th Row...]]></title>
+    <title type="html"><![CDATA[no 13th row...]]></title>
     <link href="http://ayl.github.io/blog/2006/10/09/no-13th-row/"/>
     <updated>2006-10-09T06:12:40-04:00</updated>
     <id>http://ayl.github.io/blog/2006/10/09/no-13th-row</id>

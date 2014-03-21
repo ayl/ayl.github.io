@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Life in General | My Octopress Blog]]></title>
+  <title><![CDATA[Category: Life In General | aaronylee]]></title>
   <link href="http://ayl.github.io/blog/categories/life-in-general/atom.xml" rel="self"/>
   <link href="http://ayl.github.io/"/>
-  <updated>2014-03-21T09:10:18-04:00</updated>
+  <updated>2014-03-21T09:43:48-04:00</updated>
   <id>http://ayl.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Aaron Lee]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
-    <title type="html"><![CDATA[Hello New York!]]></title>
+    <title type="html"><![CDATA[hello new york!]]></title>
     <link href="http://ayl.github.io/blog/2008/02/11/hello-new-york/"/>
     <updated>2008-02-11T01:35:56-05:00</updated>
     <id>http://ayl.github.io/blog/2008/02/11/hello-new-york</id>
@@ -30,7 +30,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Lockin Pics]]></title>
+    <title type="html"><![CDATA[lockin pics]]></title>
     <link href="http://ayl.github.io/blog/2008/02/05/lockin-pics/"/>
     <updated>2008-02-05T11:11:04-05:00</updated>
     <id>http://ayl.github.io/blog/2008/02/05/lockin-pics</id>
@@ -46,7 +46,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[What Ive Been Doing With My Free Time...]]></title>
+    <title type="html"><![CDATA[what ive been doing with my free time...]]></title>
     <link href="http://ayl.github.io/blog/2008/01/14/what-ive-been-doing-with-my-free-time/"/>
     <updated>2008-01-14T22:41:53-05:00</updated>
     <id>http://ayl.github.io/blog/2008/01/14/what-ive-been-doing-with-my-free-time</id>
@@ -59,7 +59,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Premonitions...]]></title>
+    <title type="html"><![CDATA[premonitions...]]></title>
     <link href="http://ayl.github.io/blog/2007/12/11/premonitions/"/>
     <updated>2007-12-11T20:52:29-05:00</updated>
     <id>http://ayl.github.io/blog/2007/12/11/premonitions</id>
@@ -75,7 +75,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Starry, Starry Night...]]></title>
+    <title type="html"><![CDATA[starry, starry night...]]></title>
     <link href="http://ayl.github.io/blog/2007/10/13/starry-starry-night/"/>
     <updated>2007-10-13T14:58:40-04:00</updated>
     <id>http://ayl.github.io/blog/2007/10/13/starry-starry-night</id>

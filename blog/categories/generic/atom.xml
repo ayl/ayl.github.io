@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Generic | My Octopress Blog]]></title>
+  <title><![CDATA[Category: generic | aaronylee]]></title>
   <link href="http://ayl.github.io/blog/categories/generic/atom.xml" rel="self"/>
   <link href="http://ayl.github.io/"/>
-  <updated>2014-03-21T09:10:18-04:00</updated>
+  <updated>2014-03-21T09:43:48-04:00</updated>
   <id>http://ayl.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Aaron Lee]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
-    <title type="html"><![CDATA[Welcome to My New Home!]]></title>
+    <title type="html"><![CDATA[Welcome to my new home!]]></title>
     <link href="http://ayl.github.io/blog/2014/03/21/welcome-to-jekyll/"/>
     <updated>2014-03-21T03:34:58-04:00</updated>
     <id>http://ayl.github.io/blog/2014/03/21/welcome-to-jekyll</id>

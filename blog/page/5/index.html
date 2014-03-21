@@ -1,81 +1,120 @@
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>My Octopress Blog</title>
-  <meta name="author" content="Your Name">
+	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
+	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<meta charset="utf-8">
+	<title>Ophthalmologist and Developer  | aaronylee</title>
 
-  
-  <meta name="description" content="I went to get a haircut today, and on the way back I spent the majority of my concentration on not letting my neck touch the edge of my sweater. Now &hellip;">
-  
+<meta name="author" content="Aaron Lee"> 
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="It took 6 hours to complete the new computer that I built for my lab work. After one embarrassing realization and 6 hours of agonizing screwdriving &hellip;"> <meta name="keywords" content="">
 
-  
-  <link rel="canonical" href="http://ayl.github.io/blog/page/5">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+	<link href="/atom.xml" rel="alternate" title="aaronylee" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/javascripts/jquery.fancybox.pack.js"></script>
 
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el, 
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+
+	
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">My Octopress Blog</a></h1>
-  
-    <h2>A blogging framework for hackers.</h2>
-  
-</hgroup>
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">aaronylee</a></h1>
+<h4>Ophthalmologist and Developer</h4>
+<nav id="main-nav"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="https://www.google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:ayl.github.io">
+			</form>
+		</div>
+	</div>
+</nav>
+
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="https://www.google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:ayl.github.io" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2007/01/17/one-thing-i-cant-stand/">One Thing I Cant Stand&#8230;</a></h1>
-    
-    
-      <p class="meta">
-        
+	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2007/01/19/ugh-my-back/">
+		
+			Ugh&#8230; My Back&#8230;</a>
+	</h2>
+	<div class="entry-content">
+		<p>It took 6 hours to complete the new computer that I built for my lab work. After one embarrassing realization and 6 hours of agonizing screwdriving, the computer finally booted up. Now all I got to do is fix my back&#8230; I hope the OR is a light load today&#8230;</p>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
 
 
 
@@ -87,149 +126,173 @@
   
 
 
-<time datetime="2007-01-17T20:33:19-05:00" pubdate data-updated="true">Jan 17<span>th</span>, 2007</time>
-        
-      </p>
-    
-  </header>
+<time datetime="2007-01-19T06:59:05-05:00" pubdate data-updated="true">Jan 19<span>th</span>, 2007</time></div>
+	
 
+<div class="tags">
 
-  <div class="entry-content"><p>I went to get a haircut today, and on the way back I spent the majority of my concentration on not letting my neck touch the edge of my sweater. Now that it&#8217;s blisteringly cold in St. Louis, I&#8217;m forced to wear my sweater outside, but I hate having those innumerable, intractable, tiny pieces of hair attached permanently to my clothes. I must have looked hell-bent angry driving back&#8230;</p>
+	<a class='category' href='/blog/categories/med-school-life/'>Med School Life</a>
 
 </div>
+
+
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2007/01/17/one-thing-i-cant-stand/">
+		
+			One Thing I Cant Stand&#8230;</a>
+	</h2>
+	<div class="entry-content">
+		<p>I went to get a haircut today, and on the way back I spent the majority of my concentration on not letting my neck touch the edge of my sweater. Now that it&#8217;s blisteringly cold in St. Louis, I&#8217;m forced to wear my sweater outside, but I hate having those innumerable, intractable, tiny pieces of hair attached permanently to my clothes. I must have looked hell-bent angry driving back&#8230;</p>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
   
-  
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2007/01/16/first-day-of-a-new-rotation/">First Day of a New Rotation&#8230;</a></h1>
-    
-    
-      <p class="meta">
-        
+<time datetime="2007-01-17T20:33:19-05:00" pubdate data-updated="true">Jan 17<span>th</span>, 2007</time></div>
+	
 
+<div class="tags">
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2007-01-16T18:12:25-05:00" pubdate data-updated="true">Jan 16<span>th</span>, 2007</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Every new rotation brings you to a new place with a clean background. It&#8217;s almost like a rebirth. Today I had to assure the nurse that she didn&#8217;t need to show me how to scrub. A new place, a new time, and new tortures.</p>
+	<a class='category' href='/blog/categories/life-in-general/'>Life In General</a>
 
 </div>
+
+
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2007/01/16/first-day-of-a-new-rotation/">
+		
+			First Day of a New Rotation&#8230;</a>
+	</h2>
+	<div class="entry-content">
+		<p>Every new rotation brings you to a new place with a clean background. It&#8217;s almost like a rebirth. Today I had to assure the nurse that she didn&#8217;t need to show me how to scrub. A new place, a new time, and new tortures.</p>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
   
-  
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2007/01/13/ortho-done/">Ortho Done!</a></h1>
-    
-    
-      <p class="meta">
-        
+<time datetime="2007-01-16T18:12:25-05:00" pubdate data-updated="true">Jan 16<span>th</span>, 2007</time></div>
+	
+
+<div class="tags">
+
+	<a class='category' href='/blog/categories/med-school-life/'>Med School Life</a>
+
+</div>
 
 
+	
+</div></article>
 
 
-
-
-
-
-  
-
-
-<time datetime="2007-01-13T10:22:43-05:00" pubdate data-updated="true">Jan 13<span>th</span>, 2007</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I ended yesterday with a bang. There were only two surgeries scheduled for yesterday. First one was 4 hours long (which is kind of long in ortho land). It was around 1pm and we only had one more to do. I thought to myself, &#8220;Hurray! I get to go home early!&#8221; Big mistake.</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2007/01/13/ortho-done/">
+		
+			Ortho Done!</a>
+	</h2>
+	<div class="entry-content">
+		<p>I ended yesterday with a bang. There were only two surgeries scheduled for yesterday. First one was 4 hours long (which is kind of long in ortho land). It was around 1pm and we only had one more to do. I thought to myself, &#8220;Hurray! I get to go home early!&#8221; Big mistake.</p>
 
 
 <p>The next case was &#8230; large woman needing a knee fusion, a surgery that&#8217;s hardly done anymore. I spent the next 7 hours on my feet holding up her legs or holding retractors while they tried to figure out what to do with her. I thought my feet were going to die. Today I think I have to rest my feet as much as possible&#8230;</p>
 
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-01-13T10:22:43-05:00" pubdate data-updated="true">Jan 13<span>th</span>, 2007</time></div>
+	
+
+<div class="tags">
+
+	<a class='category' href='/blog/categories/med-school-life/'>Med School Life</a>
+
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2007/01/10/sigh-2/">Sigh&#8230;</a></h1>
-    
-    
-      <p class="meta">
-        
+	
+</div></article>
 
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2007-01-10T21:42:49-05:00" pubdate data-updated="true">Jan 10<span>th</span>, 2007</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I hate delivering bad news&#8230; Especially if it hits close to home.</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2007/01/10/sigh-2/">
+		
+			Sigh&#8230;</a>
+	</h2>
+	<div class="entry-content">
+		<p>I hate delivering bad news&#8230; Especially if it hits close to home.</p>
 
 
 <p>In medicine, we are given the luxury of hiding behind the wall of impartiality but only at the sacrifice of losing our human touch. Striking that balance is something that I&#8217;ve been struggling throughout third year to achieve: how do you tell someone that they are going to suffer, even pass away, without being cold nor too emotionally involved?</p>
 
-</div>
-  
-  
+
+		
+		
+	</div>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2007/01/10/random-ear-pain/">Random Ear Pain&#8230;</a></h1>
-    
-    
-      <p class="meta">
-        
+<div class="meta">
+	<div class="date">
 
 
 
@@ -241,88 +304,115 @@
   
 
 
-<time datetime="2007-01-10T19:46:17-05:00" pubdate data-updated="true">Jan 10<span>th</span>, 2007</time>
-        
-      </p>
-    
-  </header>
+<time datetime="2007-01-10T21:42:49-05:00" pubdate data-updated="true">Jan 10<span>th</span>, 2007</time></div>
+	
 
+<div class="tags">
 
-  <div class="entry-content"><p>It started again while I was standing in the OR - a short, intense stabbing pain to my ear. I think it might be related to temperature changes since I&#8217;ve been getting them 4-5 times a day for the past two days. I wonder what it could be&#8230;</p>
+	<a class='category' href='/blog/categories/med-school-life/'>Med School Life</a>
 
 </div>
+
+
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2007/01/10/random-ear-pain/">
+		
+			Random Ear Pain&#8230;</a>
+	</h2>
+	<div class="entry-content">
+		<p>It started again while I was standing in the OR - a short, intense stabbing pain to my ear. I think it might be related to temperature changes since I&#8217;ve been getting them 4-5 times a day for the past two days. I wonder what it could be&#8230;</p>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
   
-  
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2007/01/08/more-jokes/">More Jokes&#8230;</a></h1>
-    
-    
-      <p class="meta">
-        
+<time datetime="2007-01-10T19:46:17-05:00" pubdate data-updated="true">Jan 10<span>th</span>, 2007</time></div>
+	
 
+<div class="tags">
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2007-01-08T21:05:19-05:00" pubdate data-updated="true">Jan 8<span>th</span>, 2007</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I came across another joke:A professor told dirty jokes in class and the women wanted to  protest it.  So they decided that in the next time that the  professor will start with these kind of jokes they all will leave  the class as a protest.Somehow the professor heard about the plan.In the next lecture, in the beginning of the lecture he said:  &#8220;In Sweden a prostitute makes $2000 per night.&#8221;All the women stood up and started to leave the class.  So he shouted after them:  &#8220;Where are you going?  The plane to Sweden doesn&#8217;t take off until the  day after tomorrow.&#8221;From <a href="http://www.netfunny.com/rhf/jokes/88old/prost.36.html">netfunny.com</a></p>
+	<a class='category' href='/blog/categories/med-school-life/'>Med School Life</a>
 
 </div>
+
+
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2007/01/08/more-jokes/">
+		
+			More Jokes&#8230;</a>
+	</h2>
+	<div class="entry-content">
+		<p>I came across another joke:A professor told dirty jokes in class and the women wanted to  protest it.  So they decided that in the next time that the  professor will start with these kind of jokes they all will leave  the class as a protest.Somehow the professor heard about the plan.In the next lecture, in the beginning of the lecture he said:  &#8220;In Sweden a prostitute makes $2000 per night.&#8221;All the women stood up and started to leave the class.  So he shouted after them:  &#8220;Where are you going?  The plane to Sweden doesn&#8217;t take off until the  day after tomorrow.&#8221;From <a href="http://www.netfunny.com/rhf/jokes/88old/prost.36.html">netfunny.com</a></p>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
   
-  
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2007/01/08/two-faced/">Two Faced&#8230;</a></h1>
-    
-    
-      <p class="meta">
-        
+<time datetime="2007-01-08T21:05:19-05:00" pubdate data-updated="true">Jan 8<span>th</span>, 2007</time></div>
+	
+
+<div class="tags">
+
+	<a class='category' href='/blog/categories/humor/'>Humor</a>
+
+</div>
 
 
+	
+</div></article>
 
 
-
-
-
-
-  
-
-
-<time datetime="2007-01-08T18:46:20-05:00" pubdate data-updated="true">Jan 8<span>th</span>, 2007</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Attending</p>
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2007/01/08/two-faced/">
+		
+			Two Faced&#8230;</a>
+	</h2>
+	<div class="entry-content">
+		<p>Attending</p>
 
 
 <p><points to fellow>: He used to weigh 300 pounds and now look at him!</p></p>
@@ -338,23 +428,14 @@
 
 <p>Attending: I like to get my patients excited about their health. If they are clearly lying to you, what&#8217;s the harm of lying to them about something like that?</p>
 
-</div>
-  
-  
+
+		
+		
+	</div>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2007/01/06/what-are-those-chicago-people-smoking/">What Are Those Chicago People Smoking?</a></h1>
-    
-    
-      <p class="meta">
-        
+<div class="meta">
+	<div class="date">
 
 
 
@@ -366,170 +447,129 @@
   
 
 
-<time datetime="2007-01-06T18:58:00-05:00" pubdate data-updated="true">Jan 6<span>th</span>, 2007</time>
-        
-      </p>
-    
-  </header>
+<time datetime="2007-01-08T18:46:20-05:00" pubdate data-updated="true">Jan 8<span>th</span>, 2007</time></div>
+	
 
+<div class="tags">
 
-  <div class="entry-content"><p>Has anyone else been following the <a href="http://news.google.com/news/url?sa=t&ct=us/6-0&fp=45a077a79209d7d5&ei=WDegRa7VMoz8oQKOsZj0Dg&url=http%3A//www.washingtonpost.com/wp-dyn/content/article/2007/01/01/AR2007010100422.html&cid=0&sig2=VjFRz5detEYCsCQApnK3VA">news</a> <a href="http://news.google.com/news/url?sa=t&ct=us/7-0&fp=45a035660c46716f&ei=-TagRaHAGZL2oAKus9S3DA&url=http%3A//www.boston.com/news/nation/articles/2007/01/01/a_ufo_at_ohare_some_pilots_thought_so%3Fp1%3DMEWell_Pos3&cid=0&sig2=NhhRDYqnig41c4_adpz4Cg">reports</a> <a href="http://news.google.com/news/url?sa=t&ct=us/1-0&fp=45a035660c46716f&ei=-TagRaHAGZL2oAKus9S3DA&url=http%3A//www.usatoday.com/weather/news/2007-01-01-ohare-ufo_x.htm&cid=0&sig2=Meb7XT5A84CIQLs6F1Gpng">about</a> <a href="http://news.bostonherald.com/national/view.bg?articleid=174894">the</a> <a href="http://www.cnn.com/2007/US/01/02/ufo.sighting.ap/">UFO</a> <a href="http://www.cnn.com/2007/US/01/05/fallen.object.ap/index.html?eref=rss_us">sightings </a>at O&#8217;Hare? Maybe they should check their urine&#8230; (By the way, each word is a different link.)</p>
+	<a class='category' href='/blog/categories/med-school-life/'>Med School Life</a>
 
 </div>
+
+
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2007/01/06/what-are-those-chicago-people-smoking/">
+		
+			What Are Those Chicago People Smoking?</a>
+	</h2>
+	<div class="entry-content">
+		<p>Has anyone else been following the <a href="http://news.google.com/news/url?sa=t&ct=us/6-0&fp=45a077a79209d7d5&ei=WDegRa7VMoz8oQKOsZj0Dg&url=http%3A//www.washingtonpost.com/wp-dyn/content/article/2007/01/01/AR2007010100422.html&cid=0&sig2=VjFRz5detEYCsCQApnK3VA">news</a> <a href="http://news.google.com/news/url?sa=t&ct=us/7-0&fp=45a035660c46716f&ei=-TagRaHAGZL2oAKus9S3DA&url=http%3A//www.boston.com/news/nation/articles/2007/01/01/a_ufo_at_ohare_some_pilots_thought_so%3Fp1%3DMEWell_Pos3&cid=0&sig2=NhhRDYqnig41c4_adpz4Cg">reports</a> <a href="http://news.google.com/news/url?sa=t&ct=us/1-0&fp=45a035660c46716f&ei=-TagRaHAGZL2oAKus9S3DA&url=http%3A//www.usatoday.com/weather/news/2007-01-01-ohare-ufo_x.htm&cid=0&sig2=Meb7XT5A84CIQLs6F1Gpng">about</a> <a href="http://news.bostonherald.com/national/view.bg?articleid=174894">the</a> <a href="http://www.cnn.com/2007/US/01/02/ufo.sighting.ap/">UFO</a> <a href="http://www.cnn.com/2007/US/01/05/fallen.object.ap/index.html?eref=rss_us">sightings </a>at O&#8217;Hare? Maybe they should check their urine&#8230; (By the way, each word is a different link.)</p>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
   
-  
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2007/01/06/snowed-again/">Snowed Again&#8230;</a></h1>
-    
-    
-      <p class="meta">
-        
+<time datetime="2007-01-06T18:58:00-05:00" pubdate data-updated="true">Jan 6<span>th</span>, 2007</time></div>
+	
 
+<div class="tags">
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2007-01-06T11:45:48-05:00" pubdate data-updated="true">Jan 6<span>th</span>, 2007</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Our routine weekly snowstorm hit again yesterday. The roads were icy and SUVs were overturned on the side of the road by careless drivers. I find it interesting that SUVs are so popular here when they have a higher center of gravity and are more prone to accidents, not just from the overconfidence of the drivers but from the physical characteristics of an SUV itself. The higher clearance of an SUV is great when you&#8217;re going up an incline or over rocks, but when it comes to frictionless physics, SUVs are definitely at a disadvantage. Not to mention that they add to the energy crisis&#8230;</p>
+	<a class='category' href='/blog/categories/re-news/'>re: News</a>
 
 </div>
+
+
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2007/01/06/snowed-again/">
+		
+			Snowed Again&#8230;</a>
+	</h2>
+	<div class="entry-content">
+		<p>Our routine weekly snowstorm hit again yesterday. The roads were icy and SUVs were overturned on the side of the road by careless drivers. I find it interesting that SUVs are so popular here when they have a higher center of gravity and are more prone to accidents, not just from the overconfidence of the drivers but from the physical characteristics of an SUV itself. The higher clearance of an SUV is great when you&#8217;re going up an incline or over rocks, but when it comes to frictionless physics, SUVs are definitely at a disadvantage. Not to mention that they add to the energy crisis&#8230;</p>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
   
-  
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2007/01/04/success/">Success&#8230;</a></h1>
-    
-    
-      <p class="meta">
-        
+<time datetime="2007-01-06T11:45:48-05:00" pubdate data-updated="true">Jan 6<span>th</span>, 2007</time></div>
+	
 
+<div class="tags">
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2007-01-04T23:24:05-05:00" pubdate data-updated="true">Jan 4<span>th</span>, 2007</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Alas, I was hoping for at least one broken bone so that I wouldn&#8217;t have to go to school next week, but I guess I remembered how to ski better than I thought I would.</p>
-
-
-<p>Doh&#8230;</p>
+	<a class='category' href='/blog/categories/life-in-general/'>Life In General</a>
 
 </div>
-  
-  
 
 
-    </article>
-  
-  <div class="pagination">
-    
-      <a class="prev" href="/blog/page/6/">&larr; Older</a>
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-    <a class="next" href="/blog/page/4/">Newer &rarr;</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2014/03/21/migrated-to-octopress/">Migrated to Octopress</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/03/21/welcome-to-jekyll/">Welcome to My New Home!</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2008/09/02/the-night-before-i-submit-my-eras/">The Night Before I Submit My ERAS&#8230;</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2008/08/19/while-in-palo-alto/">While in Palo Alto&#8230;</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2008/02/11/hello-new-york/">Hello New York!</a>
-      </li>
-    
-  </ul>
-</section>
+	
+</div></article>
 
+<nav id="pagenavi">
+    
+        <a href="/blog/page/4/" class="prev">Prev</a>
+    
+    
+        <a href="/blog/page/6/" class="next">Next</a>
+    
+    <div class="center"><a href="/archives">Blog Archives</a></div>
+</nav></div>
+	<footer id="footer" class="inner">Copyright &copy; 2014
 
+    Aaron Lee
 
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - Your Name -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
+<br>
+Powered by Octopress.
 </footer>
-  
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
 
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
 
 
 
