@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Arrays - My Octopress Blog</title>
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="Arrays Sep 20th, 2006 Table of ContentsArraysArraysBefore heading into the control flow that PHP has to offer, I thought it would be important to &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://ayl.github.io/blog/2006/09/20/arrays">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">My Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:ayl.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">Arrays</h1>
+    <p class="meta">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-09-20T20:45:21-04:00" pubdate data-updated="true">Sep 20<span>th</span>, 2006</time></p>
+  </header>
+  
+  <p><H3 id="toc">Table of Contents</H3><OL><LI><A HREF="#arrays">Arrays</A></LI></OL><H3 id="arrays">Arrays</H3><P>Before heading into the control flow that PHP has to offer, I thought it would be important to talk a bit about how arrays work in PHP. In PHP, the simplest way to think about every array is that they are essentially associative arrays. That is to say that every entry in the array has an associated key and value pair. This is not so different from the way that Perl arrays work, but there is one crucial difference.</P><P>The difference is that in PHP, there is no use of the &#8216;at&#8217; symbol (<TT>@</TT>) for any meaning. Instead, you simply treat arrays like any other variable with the dollar symbol (<TT>$</TT>). That said, let&#8217;s move on to some examples of how arrays work.</P><PRE><br />
+1.  &lt;?php<br />
+2.    $pi = array( 3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5, 8, 9 );<br />
+3.<br />
+4.    print_r($pi);<br />
+5.    print(&#8220;The first few digits of pi are:&#8221;<br />
+6.           .$pi[0].$pi[1].$pi[2].$pi[3].$pi[4].&#8221;&lt;BR&gt;&#8221;);<br />
+7.<br />
+8.    $fruitcolors = array(<br />
+9.                     &#8220;bannana&#8221; =&gt; &#8220;yellow&#8221;,<br />
+10.                    &#8220;orange&#8221;  =&gt; &#8220;orange&#8221;,<br />
+11.                    &#8220;apple&#8221;   =&gt; &#8220;red&#8221;);<br />
+12.<br />
+13.   print(&#8220;The color of an apple is &#8221;<br />
+14.         .$fruitcolors[&#8216;apple&#8217;].&#8221;&lt;BR&gt;&#8221;);<br />
+15.<br />
+16. ?&gt;<br />
+</PRE><P>First thing that you should notice is that arrays are handled in nearly the same manner as other languages in that you enclose the key with a set of square brackets (<TT>[]</TT>). Line 2 is the creation of an array using the function <A HREF=http://www.php.net/manual/en/function.array.php>array</A>. This function simply returns an array with automatic indexing if no index is provided as in Line 2. The <A HREF=http://www.php.net/manual/en/function.print-r.php>print_r</A> function is used to print the array in Line 4, and in Line 5, the way to access the elements of the array are shown. As I said before, the method is identical to many other programming languages. </P><P>In Lines 8-11, the array <TT>$fruitcolors</TT> is created. This time, automatic indexing is not used because the indices are provided (&#8220;bannana&#8221;, &#8220;orange&#8221;, and &#8220;apple&#8221;). These become the keys and the repective colors become the values. The symbol <TT>=&gt;</TT> is used to associate the key from the value and the delimiter is obviously the comma (<TT>,</TT>), used to separate the<br />
+key/value pairs. Line 13-14 show how to retrieve a value with a given key. </P><P>PHP supports multi-dimensional arrays by simply allowing you to put arrays within other arrays. This is illustrated below:</P><PRE><br />
+1.  &lt;?php<br />
+2.<br />
+3.   $matrix = array(array(1, 2), array(3, 4));<br />
+4.<br />
+5.   print(&#8220;Matrix value at position 1, 2 is:<br />
+6.            &#8220;.$matrix[1][2].&#8221;&lt;BR&gt;);<br />
+7.<br />
+8.  ?&gt;<br />
+</PRE><P>The multi-dimensional array is created using multiple calls to <TT>array</TT>. Line 3 simply creates a 2x2 matrix with the values 1, 2 in the first row, and 3, 4 in the second. Lines 5-6 show how to access the values within multi-dimensional arrays using two indices.</P><P>As you can see, the array implementation in PHP is both flexible and powerful. Coupled with the vast number of built-in functions that PHP provides to handle arrays, they are a very useful data structure. The size of an array is also dynamic, which is a nice change from the static arrays from C.</P></p>
+
+
+  
+    <footer>
+      <p class="meta">
+        
+  
+
+<span class="byline author vcard">Posted by <span class="fn">aaron</span></span>
+
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-09-20T20:45:21-04:00" pubdate data-updated="true">Sep 20<span>th</span>, 2006</time>
+        
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/unfiled/'>Unfiled</a>
+  
+</span>
+
+
+      </p>
+      
+        <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://ayl.github.io/blog/2006/09/20/arrays/" data-via="" data-counturl="http://ayl.github.io/blog/2006/09/20/arrays/" >Tweet</a>
+  
+  
+  
+</div>
+
+      
+    </footer>
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/03/21/migrated-to-octopress/">Migrated to Octopress</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/03/21/welcome-to-jekyll/">Welcome to My New Home!</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2008/09/02/the-night-before-i-submit-my-eras/">The Night Before I Submit My ERAS...</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2008/08/19/while-in-palo-alto/">While in Palo Alto...</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2008/02/11/hello-new-york/">Hello New York!</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Your Name -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://ayl.github.io/atom.xml" rel="self"/>
+  <link href="http://ayl.github.io/"/>
+  <updated>2014-03-21T09:10:18-04:00</updated>
+  <id>http://ayl.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Migrated to Octopress]]></title>
+    <link href="http://ayl.github.io/blog/2014/03/21/migrated-to-octopress/"/>
+    <updated>2014-03-21T09:07:31-04:00</updated>
+    <id>http://ayl.github.io/blog/2014/03/21/migrated-to-octopress</id>
+    <content type="html"><![CDATA[<p>Well. Jekyll&rsquo;s site was live on github for about 5 seconds until I decided the rake automated tasks in Octopress were too good to pass up.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome to My New Home!]]></title>
+    <link href="http://ayl.github.io/blog/2014/03/21/welcome-to-jekyll/"/>
+    <updated>2014-03-21T03:34:58-04:00</updated>
+    <id>http://ayl.github.io/blog/2014/03/21/welcome-to-jekyll</id>
+    <content type="html"><![CDATA[<p>Since 1998, I&rsquo;ve had various websites across the Internet. This site is an attempt to find a long term permanent new home. I hope to include code snippets that I&rsquo;ve found useful in my programming endevors for both my own benefit as well as everyone elses. My prior sites seem to be overrun by spam comments. As such I will disable comments for now and focus on content generation.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Night Before I Submit My ERAS...]]></title>
+    <link href="http://ayl.github.io/blog/2008/09/02/the-night-before-i-submit-my-eras/"/>
+    <updated>2008-09-02T02:12:03-04:00</updated>
+    <id>http://ayl.github.io/blog/2008/09/02/the-night-before-i-submit-my-eras</id>
+    <content type="html"><![CDATA[<p>I couldn&#8217;t really fall asleep so I started browsing online a little and I found some really neat photo viewing software. After some very hackish code, I put got it integrated onto my site. I think I finally found a gallery software that I&#8217;m happy with. It solves the problem of too many pictures to wade through but allowing you to focus on the ones that you like. Accolades to cooliris!</p>
+
+
+<p>Click on &#8220;Photos&#8221; on the far right side of the homepage for an eye-popping experience.</p>
+
+
+<p>Works best with Firefox + Cooliris.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[While in Palo Alto...]]></title>
+    <link href="http://ayl.github.io/blog/2008/08/19/while-in-palo-alto/"/>
+    <updated>2008-08-19T02:04:24-04:00</updated>
+    <id>http://ayl.github.io/blog/2008/08/19/while-in-palo-alto</id>
+    <content type="html"><![CDATA[<p><p>So I know it&rsquo;s been a while since I&rsquo;ve posted on here. My profuse apologies. A recent conversation with a labmate late at night prompted me to post this snippet:
+<ul>
+<li>friend: So as a medical professional, what do you think about dipping your feet in a bucket of your own urine to get rid of foot fungus?</li>
+<li>me: What?! You can&rsquo;t be serious!</li>
+<li>friend: Here let me show you&hellip; &lt;goes on internet&gt; Look! There&rsquo;s a post here on a speed reading site on &ldquo;putting my feet in urine to get rid of fungus.&rdquo;</li>
+<li>me: Please tell me that you&rsquo;re not taking serious medical advice from a speeding site on the Internet.</li>
+<li>friend: Oh shit.</li>
+<li>me: What now?</li>
+<li>friend: What do you think they do for systemic fungus?</li>
+</ul></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello New York!]]></title>
+    <link href="http://ayl.github.io/blog/2008/02/11/hello-new-york/"/>
+    <updated>2008-02-11T01:35:56-05:00</updated>
+    <id>http://ayl.github.io/blog/2008/02/11/hello-new-york</id>
+    <content type="html"><![CDATA[<p>My recent trip to the Big Apple albeit brief has left me pining for more gustatory pleasures the moment I stepped on the plane bound for my St Louis home. While I knew before I arrived that New York provided the roof of the world&#8217;s cultural foods, I was surprised by the depth of cultures present from block to block. Walking into K-town was as seamless teleportation to the hustle and bustle of the streets of Seoul with signs spilling down with Korean script, then abruptly ending back into the American starkness.</p>
+
+
+<p>Perhaps it was the company of old friends or perhaps it was my preconceived belief of the coldness of the New Yorker, but I was again surprised to find warmth and hidden smiles under a demeanor, tempered by the cold strong winds whipping through the streets and by the temperamental market. Walking through Central Park, with its apologetically large number of trees, I found dwellers collectively finding solace from the confines of the concrete prisons of their homes.</p>
+
+
+<p>Though comparatively the congenial suburbs of my youth pale in the vastness of the City, I found myself hoping to find my way back again, if only for the sake of my palate.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Lockin Pics]]></title>
+    <link href="http://ayl.github.io/blog/2008/02/05/lockin-pics/"/>
+    <updated>2008-02-05T11:11:04-05:00</updated>
+    <id>http://ayl.github.io/blog/2008/02/05/lockin-pics</id>
+    <content type="html"><![CDATA[<p>For all the people at GPC, I&#8217;ve posted the Lockin pictures from this past weekend online here:</p>
+
+
+<p><a href="http://picasaweb.google.com/gpcbereans2008/BereansGFLockIn2008?authkey=wQ-YA4CyBMg">GPC Picasa Album</a></p>
+
+
+<p>Props go to Joyce for some of the shots.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Therapuetic Misconceptions]]></title>
+    <link href="http://ayl.github.io/blog/2008/02/03/therapuetic-misconceptions/"/>
+    <updated>2008-02-03T16:38:05-05:00</updated>
+    <id>http://ayl.github.io/blog/2008/02/03/therapuetic-misconceptions</id>
+    <content type="html"><![CDATA[<p>Therapeutic misconception can be defined as the misunderstanding of the research subject of the potential therapeutic outcome in a study, stemming from mismatched expectations. The situation commonly arises and is best illustrated in placebo-controlled randomized controlled trials (RCTs) where the patient has a significant chance of being in the placebo control group and not in the experimental therapy group, but the patient <em>believes</em> that he or she will benefit by being in the study by receiving the experimental therapy. This misunderstanding, in part, stems from the unconscious entitlement that comes from the patient agreeing to be a part of a scientific study, and in volunteering their well-being, health, and time, they unconsciously believe that they should benefit from being in the study. While a gift may substitute for some of this unconscious entitlement since they are receiving something for their time and effort, nonetheless therapeutic misconception remains a problem in clinical trials. One evidence of this is the attention that is spent on controlling for the placebo-effect in the placebo group, while little or no effort is spent on controlling for <em>placebo-anticipation</em> in the experimental group.</p>
+
+
+<p>In looking at whether it should be avoided, one must look at both the short-term and long-term consequences of therapeutic misconceptions. From a health standpoint, since IRBs institute ethical standards about equivalency of the therapies of the arms of an RCT, theoretically there should not be a concern as to the objective health concerns of therapeutic misconceptions. Instead, there is less tangible damage done with the mismatching of expectations at the end of the study during debriefing or even during the study when the patient expects to be receiving the experimental therapy. From this mismatching, the patient-researcher relationship is irrevocably damaged, and indeed the patient&#8217;s trust of the medical system as a whole may be marred as well. The future impact and consequences of this damage are impossible to assess yet they may translate to true harm to patients&#8217; health when mistrust interferes with medical decision points. From a societal perspective, these intangible damages may translate to a gradual animosity against the medical community.</p>
+
+
+<p>While there may appear to be few short-term consequences of therapeutic misconceptions, there truly are long-term consequences. These consequences give little incentive for the researcher to attempt to protect against therapeutic misconceptions and take additional measures to protect against them. Yet they must be avoided at all costs since the consequences are sufficiently harmful.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[More Hdr]]></title>
+    <link href="http://ayl.github.io/blog/2008/02/02/more-hdr/"/>
+    <updated>2008-02-02T15:59:48-05:00</updated>
+    <id>http://ayl.github.io/blog/2008/02/02/more-hdr</id>
+    <content type="html"><![CDATA[<p>Here&#8217;s two more shots from yesterday at the St Louis Art Museum.</p>
+
+
+<table align=center>
+<tr>
+<td><a href="http://ayl.nuwen.net/wp-content/uploads/2008/02/statuebig.jpg" rel="lightbox" title="fountain"><img src="http://ayl.nuwen.net/wp-content/uploads/2008/02/statuebig.thumbnail.jpg" alt="fountain" /></a></td>
+<td><a href="http://ayl.nuwen.net/wp-content/uploads/2008/02/stlouisbig.jpg" title="statue outside" rel="lightbox" ><img src="http://ayl.nuwen.net/wp-content/uploads/2008/02/stlouisbig.thumbnail.jpg" alt="statue outside" /></a></td>
+</tr>
+</table>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Foray Into Hdr]]></title>
+    <link href="http://ayl.github.io/blog/2008/02/01/foray-into-hdr/"/>
+    <updated>2008-02-01T14:14:02-05:00</updated>
+    <id>http://ayl.github.io/blog/2008/02/01/foray-into-hdr</id>
+    <content type="html"><![CDATA[<p>I recently discovered HDR. I may consider making a tutorial for it soon since it&#8217;s a very interesting technique.</p>
+
+
+<p>Take a look at before and after from one of my Kenya photos (click on them for the full resolution):</p>
+
+
+<table align=center>
+<tr>
+<td>
+<a href="http://ayl.nuwen.net/wp-content/uploads/2008/02/dsc_0125.jpg" rel="lightbox" title="before"><img src="http://ayl.nuwen.net/wp-content/uploads/2008/02/dsc_0125.thumbnail.jpg" alt="before" /></a>
+</td>
+<td>
+<a href="http://ayl.nuwen.net/wp-content/uploads/2008/02/final.jpg" rel="lightbox" title="after hdr"><img src="http://ayl.nuwen.net/wp-content/uploads/2008/02/final.thumbnail.jpg" alt="after hdr" /></a>
+</td>
+</tr>
+</table>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Conflicts of Interest]]></title>
+    <link href="http://ayl.github.io/blog/2008/01/26/conflicts-of-interest/"/>
+    <updated>2008-01-26T20:05:00-05:00</updated>
+    <id>http://ayl.github.io/blog/2008/01/26/conflicts-of-interest</id>
+    <content type="html"><![CDATA[<p>We worry about conflicts of interest or commitment in research because of the undue influences that they may have on healthcare providers. Since there is clearly an effect upon the care that is delivered, conflicts of interest may impact the care delivered in a positive or a negative way. Positively affecting conflicts of interest motivate healthcare providers to act in the best interest of the patient whereas negatively affecting conflicts of interest motivate healthcare providers to work in the best interest of some entity outside of the patient.</p>
+
+
+<p>Positively affecting conflicts of interest include situations where the physician or someone close to the physician is the receiver of care such as friends or family. In these cases, the physician has an incentive to provide care above and beyond the average patient. This motivation may have negative consequences when the provider begins work selfishly in the interest of himself over the patient&#8217;s own wishes. A common example of this is when providers care for their parents during end of life situations and attempt to exceed the level of care over the patient&#8217;s wishes for selfish reasons. Nonetheless in these situations, the care of the provider is for the ultimate benefit of the patient and not a third party, and therefore is less worrisome.</p>
+
+
+<p>Conflicts of interest which are more worrisome involve cases where the researcher or the provider is not acting solely in the best interest of the patient, but also for a third party entity. These include the cases from drug company provided pens to a researcher&#8217;s desire to further their own research. While providers may truly believe that they are acting primarily in the interest of the patient with the additional benefit of a third entity, they must also consider that they are unconsciously or consciously biased toward offering one treatment over another. Given a situation with two possible treatments where both treatments ostensibly benefit the patient, but one additionally benefits a drug company or a researcher&#8217;s research, the provider will naturally choose to give the later treatment. Even though this may seem innocuous in its result, the motivation behind the choice may lead to a dangerous situation in which the provider does not prescribe the former treatment even if it is more beneficial for the patient since the provider is no longer acting solely in the interest of the patient. It is precisely these situations that are most dangerous in terms of conflicts of interests, and the reason why we have ethical guidelines to follow.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[While on a Roadtrip to Denver...]]></title>
+    <link href="http://ayl.github.io/blog/2008/01/20/while-on-a-roadtrip-to-denver/"/>
+    <updated>2008-01-20T11:18:49-05:00</updated>
+    <id>http://ayl.github.io/blog/2008/01/20/while-on-a-roadtrip-to-denver</id>
+    <content type="html"><![CDATA[<p>&lt;context: morning&gt;</p>
+
+
+<p>chris: Hwei, do you want to wear something over your legs? Here&#8217;s my shirt.</p>
+
+
+<p>katy: Chris, can you cover your face? You&#8217;re stumbling me.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[While Sitting in Intro to Entrepreneurship]]></title>
+    <link href="http://ayl.github.io/blog/2008/01/16/while-sitting-in-intro-to-entrepreneurship/"/>
+    <updated>2008-01-16T14:46:11-05:00</updated>
+    <id>http://ayl.github.io/blog/2008/01/16/while-sitting-in-intro-to-entrepreneurship</id>
+    <content type="html"><![CDATA[<p>teacher: Make benefits a little worse than employee&#8217;s spouses.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Mother's Kiss Technique]]></title>
+    <link href="http://ayl.github.io/blog/2008/01/14/the-mothers-kiss-technique/"/>
+    <updated>2008-01-14T23:14:25-05:00</updated>
+    <id>http://ayl.github.io/blog/2008/01/14/the-mothers-kiss-technique</id>
+    <content type="html"><![CDATA[<p>While doing some reading for class I came across this quote:</p>
+
+
+<blockquote><p>Motherâ€™s kiss techniqueâ€”A child presented to a clinic with a plastic bead lodged high in one nostril. The general practitioner asked the nurse for forceps, but she asked him whether he had thought of trying the motherâ€™s kiss technique. This entailed occluding the unblocked nostril while the mother blew into the childâ€™s mouth. The bead was easily dislodged and retrieved in this way, and mother and child were both delighted&#8230;
+</p></blockquote>
+
+
+<p>Glasziou et al. When are randomised trials unnecessary? Picking signal from noise. BMJ (2007) vol. 334 (7589) pp. 349-51</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[What Ive Been Doing With My Free Time...]]></title>
+    <link href="http://ayl.github.io/blog/2008/01/14/what-ive-been-doing-with-my-free-time/"/>
+    <updated>2008-01-14T22:41:53-05:00</updated>
+    <id>http://ayl.github.io/blog/2008/01/14/what-ive-been-doing-with-my-free-time</id>
+    <content type="html"><![CDATA[<p>In case people have been wondering what the heck I&#8217;ve been up to. Here it is&#8230;</p>
+
+
+<p><a href="http://ayl.nuwen.net/index.php/projects/diy-imod-ipod/">iMod iPod DIY tutorial</a></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Premonitions...]]></title>
+    <link href="http://ayl.github.io/blog/2007/12/11/premonitions/"/>
+    <updated>2007-12-11T20:52:29-05:00</updated>
+    <id>http://ayl.github.io/blog/2007/12/11/premonitions</id>
+    <content type="html"><![CDATA[<p>Yesterday I found myself sliding into a truck that sudden stopped. Under normal conditions, the 15-feet distance and my remarkable reflexes would have been more than enough to stop at an adequate distance behind her, but unfortunately I felt the tires begin to slide due to the slippery conditions. It&#8217;s a strange feeling watching the inevitable happen without a thing that you can do to stop it.</p>
+
+
+<p>Earlier that morning, I had three separate occasions that I was positive that I was going to get into an accident. First, I was stopped at a corner and a car was making a right turn into the opposite lane and came within an inch of hitting my car. Further down that same street another car was backing out into the street but we had no vision of each other and he almost backed into me. Finally as I turning into the parking lot, an SUV was making a U-turn and blocked the vision of the opposite lane. Thinking that the lane was clear, I began to turn left into the lot when I spotted the small car behind it that was already moving.</p>
+
+
+<p>I remember having a funny feeling that something bad was going to happen and that I should be really careful. Should have listened more to my gut instincts&#8230;</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Digg Digest 12/10/07]]></title>
+    <link href="http://ayl.github.io/blog/2007/12/10/digg-digest-121007/"/>
+    <updated>2007-12-10T14:11:23-05:00</updated>
+    <id>http://ayl.github.io/blog/2007/12/10/digg-digest-121007</id>
+    <content type="html"><![CDATA[<p>So I decided to digest interesting links on digg for those you that are uneducated in the ways of social browsing. Here are a list of the random / funny / interesting links of the day:</p>
+
+
+<ol>
+<li><a href="http://www.docstoc.com/docs/272242/Why-I-Got-Fired">Why I Got Fired</a> &#8211;Â  A series of disastrous pictures (scroll in the small subframe).</li>
+<li><a href="http://www.upload.mn/viewer.php?file=1ykm9q7qa687q1fwqbos.jpg">The $0 Bill</a> &#8211; A comment on our dear Mr. President&#8217;s ability to devalue the dollar.</li>
+<li><a href="http://www.ted.com/index.php/talks/view/id/184">Neurology Review</a> &#8211; A great 30 minute overview of some interesting frontiers of Neurology. It&#8217;s accurate and very understandable to the public. Too bad real clinical neurology is not nearly as interesting&#8230;</li>
+<li><a href="http://jimhillmedia.com/blogs/jim_hill/archive/2007/12/09/a-special-where-s-wall-e-edition-of-why-for.aspx##">Easter Eggs in Pixar Films</a> &#8211; An incredible list of <a href="http://en.wikipedia.org/wiki/Easter_egg_(virtual)">Easter Eggs</a> found in Pixar films.</li>
+<li><a href="http://sawse.com/2007/12/07/10-top-sites-for-colour-lovers-inspiration-palettes-tools-and-other-color-resources/">Color Picking Tools</a> &#8211; Ever needed a tool to help you match colors?</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Simple Criteria for Marriage...]]></title>
+    <link href="http://ayl.github.io/blog/2007/11/28/a-simple-criteria-for-marriage/"/>
+    <updated>2007-11-28T14:37:31-05:00</updated>
+    <id>http://ayl.github.io/blog/2007/11/28/a-simple-criteria-for-marriage</id>
+    <content type="html"><![CDATA[<p>A lot of people I&#8217;ve met have ridiculously long list of things that their future significant other should or shouldn&#8217;t be like. I, on the other hand, have a simple criteria.<img src="http://ayl.nuwen.net/wp-content/uploads/2007/11/factor.png" alt="factor" /></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Just for Christopher Shim...]]></title>
+    <link href="http://ayl.github.io/blog/2007/10/18/just-for-christopher-shim/"/>
+    <updated>2007-10-18T02:25:51-04:00</updated>
+    <id>http://ayl.github.io/blog/2007/10/18/just-for-christopher-shim</id>
+    <content type="html"><![CDATA[<p>I have to say that I only really thought of one person when I saw this photo (note the license plate):</p>
+
+
+<p><a href="http://ayl.nuwen.net/wp-content/uploads/2007/10/544142897_b0fbff8307_o.jpg" rel="lightbox" title="arr"><img src="http://ayl.nuwen.net/wp-content/uploads/2007/10/544142897_b0fbff8307_o.thumbnail.jpg" alt="arr" height="273" width="340" /></a>from <a href="http://www.flickr.com/photo_zoom.gne?id=544142897&amp;size=o">flickr</a></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Starry, Starry Night...]]></title>
+    <link href="http://ayl.github.io/blog/2007/10/13/starry-starry-night/"/>
+    <updated>2007-10-13T14:58:40-04:00</updated>
+    <id>http://ayl.github.io/blog/2007/10/13/starry-starry-night</id>
+    <content type="html"><![CDATA[<p><a href="http://ayl.nuwen.net/wp-content/uploads/2007/10/starry-night-mid.jpg" rel="lightbox"  title="mid"><img src="http://ayl.nuwen.net/wp-content/uploads/2007/10/starry-night-small.jpg" alt="mid" /></a></p>
+
+
+<p>Taken during the 2007 camping trip last night!</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[I Know, I Know, Im a Geek]]></title>
+    <link href="http://ayl.github.io/blog/2007/10/12/i-know-i-know-im-a-geek/"/>
+    <updated>2007-10-12T10:50:29-04:00</updated>
+    <id>http://ayl.github.io/blog/2007/10/12/i-know-i-know-im-a-geek</id>
+    <content type="html"><![CDATA[<p>It&#8217;s too bad not enough people can understand how brilliant these two comics from <a href="http://xkcd.com/">xkcd</a> are.</p>
+
+
+<p><img src="http://ayl.nuwen.net/wp-content/uploads/2007/10/image001.png" alt="image001.png" height="131" width="427" /><img src="http://ayl.nuwen.net/wp-content/uploads/2007/10/sandwich.png" alt="sandwich.png" /></p>
+
+]]></content>
+  </entry>
+  
+</feed>

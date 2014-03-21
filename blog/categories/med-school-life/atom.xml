@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Med School Life | My Octopress Blog]]></title>
+  <link href="http://ayl.github.io/blog/categories/med-school-life/atom.xml" rel="self"/>
+  <link href="http://ayl.github.io/"/>
+  <updated>2014-03-21T09:10:18-04:00</updated>
+  <id>http://ayl.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Night Before I Submit My ERAS...]]></title>
+    <link href="http://ayl.github.io/blog/2008/09/02/the-night-before-i-submit-my-eras/"/>
+    <updated>2008-09-02T02:12:03-04:00</updated>
+    <id>http://ayl.github.io/blog/2008/09/02/the-night-before-i-submit-my-eras</id>
+    <content type="html"><![CDATA[<p>I couldn't really fall asleep so I started browsing online a little and I found some really neat photo viewing software. After some very hackish code, I put got it integrated onto my site. I think I finally found a gallery software that I'm happy with. It solves the problem of too many pictures to wade through but allowing you to focus on the ones that you like. Accolades to cooliris!</p>
+
+
+<p>Click on "Photos" on the far right side of the homepage for an eye-popping experience.</p>
+
+
+<p>Works best with Firefox + Cooliris.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[While in Palo Alto...]]></title>
+    <link href="http://ayl.github.io/blog/2008/08/19/while-in-palo-alto/"/>
+    <updated>2008-08-19T02:04:24-04:00</updated>
+    <id>http://ayl.github.io/blog/2008/08/19/while-in-palo-alto</id>
+    <content type="html"><![CDATA[<p><p>So I know it&rsquo;s been a while since I&rsquo;ve posted on here. My profuse apologies. A recent conversation with a labmate late at night prompted me to post this snippet:
+<ul>
+<li>friend: So as a medical professional, what do you think about dipping your feet in a bucket of your own urine to get rid of foot fungus?</li>
+<li>me: What?! You can&rsquo;t be serious!</li>
+<li>friend: Here let me show you&hellip; &lt;goes on internet&gt; Look! There&rsquo;s a post here on a speed reading site on &ldquo;putting my feet in urine to get rid of fungus.&rdquo;</li>
+<li>me: Please tell me that you&rsquo;re not taking serious medical advice from a speeding site on the Internet.</li>
+<li>friend: Oh shit.</li>
+<li>me: What now?</li>
+<li>friend: What do you think they do for systemic fungus?</li>
+</ul></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Therapuetic Misconceptions]]></title>
+    <link href="http://ayl.github.io/blog/2008/02/03/therapuetic-misconceptions/"/>
+    <updated>2008-02-03T16:38:05-05:00</updated>
+    <id>http://ayl.github.io/blog/2008/02/03/therapuetic-misconceptions</id>
+    <content type="html"><![CDATA[<p>Therapeutic misconception can be defined as the misunderstanding of the research subject of the potential therapeutic outcome in a study, stemming from mismatched expectations. The situation commonly arises and is best illustrated in placebo-controlled randomized controlled trials (RCTs) where the patient has a significant chance of being in the placebo control group and not in the experimental therapy group, but the patient <em>believes</em> that he or she will benefit by being in the study by receiving the experimental therapy. This misunderstanding, in part, stems from the unconscious entitlement that comes from the patient agreeing to be a part of a scientific study, and in volunteering their well-being, health, and time, they unconsciously believe that they should benefit from being in the study. While a gift may substitute for some of this unconscious entitlement since they are receiving something for their time and effort, nonetheless therapeutic misconception remains a problem in clinical trials. One evidence of this is the attention that is spent on controlling for the placebo-effect in the placebo group, while little or no effort is spent on controlling for <em>placebo-anticipation</em> in the experimental group.</p>
+
+
+<p>In looking at whether it should be avoided, one must look at both the short-term and long-term consequences of therapeutic misconceptions. From a health standpoint, since IRBs institute ethical standards about equivalency of the therapies of the arms of an RCT, theoretically there should not be a concern as to the objective health concerns of therapeutic misconceptions. Instead, there is less tangible damage done with the mismatching of expectations at the end of the study during debriefing or even during the study when the patient expects to be receiving the experimental therapy. From this mismatching, the patient-researcher relationship is irrevocably damaged, and indeed the patient's trust of the medical system as a whole may be marred as well. The future impact and consequences of this damage are impossible to assess yet they may translate to true harm to patients' health when mistrust interferes with medical decision points. From a societal perspective, these intangible damages may translate to a gradual animosity against the medical community.</p>
+
+
+<p>While there may appear to be few short-term consequences of therapeutic misconceptions, there truly are long-term consequences. These consequences give little incentive for the researcher to attempt to protect against therapeutic misconceptions and take additional measures to protect against them. Yet they must be avoided at all costs since the consequences are sufficiently harmful.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Conflicts of Interest]]></title>
+    <link href="http://ayl.github.io/blog/2008/01/26/conflicts-of-interest/"/>
+    <updated>2008-01-26T20:05:00-05:00</updated>
+    <id>http://ayl.github.io/blog/2008/01/26/conflicts-of-interest</id>
+    <content type="html"><![CDATA[<p>We worry about conflicts of interest or commitment in research because of the undue influences that they may have on healthcare providers. Since there is clearly an effect upon the care that is delivered, conflicts of interest may impact the care delivered in a positive or a negative way. Positively affecting conflicts of interest motivate healthcare providers to act in the best interest of the patient whereas negatively affecting conflicts of interest motivate healthcare providers to work in the best interest of some entity outside of the patient.</p>
+
+
+<p>Positively affecting conflicts of interest include situations where the physician or someone close to the physician is the receiver of care such as friends or family. In these cases, the physician has an incentive to provide care above and beyond the average patient. This motivation may have negative consequences when the provider begins work selfishly in the interest of himself over the patient's own wishes. A common example of this is when providers care for their parents during end of life situations and attempt to exceed the level of care over the patient's wishes for selfish reasons. Nonetheless in these situations, the care of the provider is for the ultimate benefit of the patient and not a third party, and therefore is less worrisome.</p>
+
+
+<p>Conflicts of interest which are more worrisome involve cases where the researcher or the provider is not acting solely in the best interest of the patient, but also for a third party entity. These include the cases from drug company provided pens to a researcher's desire to further their own research. While providers may truly believe that they are acting primarily in the interest of the patient with the additional benefit of a third entity, they must also consider that they are unconsciously or consciously biased toward offering one treatment over another. Given a situation with two possible treatments where both treatments ostensibly benefit the patient, but one additionally benefits a drug company or a researcher's research, the provider will naturally choose to give the later treatment. Even though this may seem innocuous in its result, the motivation behind the choice may lead to a dangerous situation in which the provider does not prescribe the former treatment even if it is more beneficial for the patient since the provider is no longer acting solely in the interest of the patient. It is precisely these situations that are most dangerous in terms of conflicts of interests, and the reason why we have ethical guidelines to follow.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Brutal Honesty]]></title>
+    <link href="http://ayl.github.io/blog/2007/05/09/brutal-honesty/"/>
+    <updated>2007-05-09T19:57:56-04:00</updated>
+    <id>http://ayl.github.io/blog/2007/05/09/brutal-honesty</id>
+    <content type="html"><![CDATA[<p>When I asked one of my patients at the VA during a history and physical, whether he had ever done any kinds of drugs, he responded with:</p>
+
+
+<p>"No sir, but I did sell them."</p>
+
+]]></content>
+  </entry>
+  
+</feed>

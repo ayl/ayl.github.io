@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Generic | My Octopress Blog]]></title>
+  <link href="http://ayl.github.io/blog/categories/generic/atom.xml" rel="self"/>
+  <link href="http://ayl.github.io/"/>
+  <updated>2014-03-21T09:10:18-04:00</updated>
+  <id>http://ayl.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome to My New Home!]]></title>
+    <link href="http://ayl.github.io/blog/2014/03/21/welcome-to-jekyll/"/>
+    <updated>2014-03-21T03:34:58-04:00</updated>
+    <id>http://ayl.github.io/blog/2014/03/21/welcome-to-jekyll</id>
+    <content type="html"><![CDATA[<p>Since 1998, I&rsquo;ve had various websites across the Internet. This site is an attempt to find a long term permanent new home. I hope to include code snippets that I&rsquo;ve found useful in my programming endevors for both my own benefit as well as everyone elses. My prior sites seem to be overrun by spam comments. As such I will disable comments for now and focus on content generation.</p>
+]]></content>
+  </entry>
+  
+</feed>
